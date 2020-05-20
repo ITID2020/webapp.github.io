@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Niramit', sans-serif;
+ 
+}
+
+body {
+  background-color: rgb(228, 243, 255);
+  font-size: 14px;
+  
+
+}
+
+/*nav คือส่วนของเมนูหลักฝั่งซ้าย*/
+.nav {
+    float: left;
+    width: 19%;
+    height: 730px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+    background-color: #042331;
+   
+}
+
+  .nav li {
+      list-style: none;
+      font-size: 17px;
+      font-weight: bold;
+  }
+ 
+  .nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    transition: .3s;
+  }
+
+ .nav ul li:hover a{
+    padding-left: 30px;
+  }
+  
+  .nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .nav li a:hover:not(.active) {
+    background-color: MediumTurquoise;
+    color: black;
+  }
+
+  
+  .nav ul.menu li {
+    list-style: none;
+    font-size: 14px;
+    text-indent: 13px;
+    font-weight: normal;
+  }
+
+/*article คือส่วนของข้อมูลฝั่งขวา */
+.article {
+    float: left;
+    width: 79%;
+    height: 100%;
+    padding: 5px;
+    overflow: auto;
+
+}
+.article ul {
+    list-style-type: none;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: #042331;
+
+    top: 0;
+  }
+  
+  .article li {
+    float: left;
+  }
+  
+  .article li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+  }
+  
+  .article li a:hover, .dropdown:hover .dropbtn {
+    background-color: MediumTurquoise;
+  }
+  
+  .article li.dropdown {
+    display: inline-block;
+  }
+  
+.article select {
+    border: 1.5px solid #333;
+    padding: 3px;
+    width: 500px;
+    border-radius: 4px;
+    
+}
+
+.article input {
+    border: 1.5px solid #333;
+    padding: 3px;
+    width: 500px;
+    border-radius: 4px;
+}
+.article textarea {
+    border: 1.5px solid #333;
+    padding: 3px;
+    width: 500px;
+    border-radius: 4px;
+}
+
+.article button {
+    padding: 10px;
+    text-transform: uppercase;
+    width: 500px;
+    background-color: #333;
+    color: #f1f1f1;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.article button:hover {
+    background: #ffffff;
+    color: #333;
+    border: 2px solid #333;
+
+}
+
+.section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+legend {
+  
+    text-align: center;
+    font-size: 16px;
+}
+
+label, input, select, textarea, button {
+    margin-left: 100px;
+    display: block ;
+}
+
+.aside {
+  float: right;
+  width: 20%;
+  height: 730px;
+  padding: 10px;
+  overflow: auto;
+  background-color: #333;
+}
+.aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.aside li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.aside li a {
+  display: block;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  }
+  .aside li a.active {
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    .aside li a:hover:not(.active) {
+    background-color: MediumTurquoise;
+    color: black;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 6px;
+      text-align: center;
+      
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:hover {background-color:#f2f2f2;}
+  
+    table, td, th {
+      border: 1px solid #ddd;
+      text-align: left;
+    }
