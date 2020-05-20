@@ -1,6 +1,6 @@
 <?php
 
-        $link = mysqli_connect("localhost","root","","webapp");
+        $link = mysqli_connect("192.168.6.6:82","root","","webapp");
         mysqli_set_charset($link, 'utf8');
 
         if($link) 
