@@ -5,18 +5,6 @@
                 $namepro = $_POST['namepro'];
                 $company = $_POST['company'];
                 $numpro = $_POST['numpro'];
-				$invoice = $_POST['invoice'];
-				$po = $_POST['po'];
-                $datetype = $_POST['datetype'];
-                $timeadd = $_POST['timeadd'];
-                $remark = $_POST['remark'];
-
-                $sql = "INSERT INTO จ่ายออก_pvcบวกเบ็ดเตล็ด (namepro,company,numpro,invoice,po,datetype,timeadd,remark) 
-                VALUES ('$namepro','$company','$numpro','$invoice','$po','$datetype','$timeadd','$remark')"; 
-
-                $namepro = $_POST['namepro'];
-                $company = $_POST['company'];
-                $numpro = $_POST['numpro'];
                 $invoice = $_POST['invoice'];
                 $po = $_POST['po'];
                 $datetype = $_POST['datetype'];
